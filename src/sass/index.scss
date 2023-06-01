@@ -1,2 +1,28 @@
 @import './common';
 @import './example';
+
+// utils styles
+@import './utils/decimals';
+@import './utils/variables';
+@import './utils/v-hidden';
+@import './utils/mixin';
+
+//base styles
+@import './base/base';
+@import './base/reset';
+
+//components
+@import './components/_header';
+@import './components/footer';
+@import './components/pagination';
+@import './components/container';
+@import './components/library-gallery';
+@import './components/modal';
+@import './components/scrollUp';
+@import './components/container-gallery';
+
+@import './components/team-modal';
+@import './components/loader';
+@import './components/filter';
+@import './components/themeSwitcher';
+@import './components/preloader.scss';
